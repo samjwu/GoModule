@@ -7,7 +7,7 @@ import (
 
 func Greet(name string) (string, error) {
 	if name == "" {
-		return "", errors.New("name is empty")
+		return "", errors.New("Error: name is empty")
     }
 
 	message := fmt.Sprintf("Greetings, %v.", name)
