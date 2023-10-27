@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-    log.SetPrefix("greetings: ")
+    log.SetPrefix("greeting: ")
 
     // https://pkg.go.dev/log#Flags
     log.SetFlags(0)
