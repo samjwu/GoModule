@@ -13,7 +13,7 @@ func main() {
     // https://pkg.go.dev/log#Flags
     log.SetFlags(0)
 
-    message, err := greeting.Greet("")
+    message, err := greeting.Greet("Sam")
 
     if err != nil {
         // https://pkg.go.dev/log#Fatal
