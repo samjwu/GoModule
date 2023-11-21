@@ -21,4 +21,14 @@ func main() {
     }
 
     fmt.Println(message)
+
+    names := []string{"Adam", "Bob", "Carl"}
+
+    messages, err := greeting.GreetAll(names)
+    
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    fmt.Println(messages)
 }
